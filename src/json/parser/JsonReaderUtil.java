@@ -54,6 +54,9 @@ public class JsonReaderUtil {
             try {
                 JsonObject jsonobject = jsonArray.get(i).getAsJsonObject();
                 //you code start here
+                //extract data ---all the other one salary,dep etc
+                String empName = jsonArray.get("empEmail").toString();
+                System.out.println(empName);
 
 
 

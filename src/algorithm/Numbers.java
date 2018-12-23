@@ -10,6 +10,9 @@ import java.util.Random;
  */
 public class Numbers {
 
+	//secret properties--
+	//change pass and url
+
 	/*
 	 * Show all the different kind of sorting algorithm by applying into (num array).
 	 * Display the execution time for each sorting.Example in below.
@@ -35,6 +38,7 @@ public class Numbers {
         printValue(numbers);
 		int n = num.length;
 		randomize (num, n);
+		//randomize it again????rashed
 		//Insertion Sort
 		algo.insertionSort(num);
 		long insertionSortExecutionTime = algo.executionTime;
